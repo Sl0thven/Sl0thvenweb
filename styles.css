@@ -1,0 +1,75 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #8f9ce0;
+    color: #727bc4;
+}
+
+/* Header Styles */
+header {
+    background: #0a0000;
+    color: rgb(114, 131, 218);
+    padding: 20px 0;
+}
+
+header h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(114, 131, 218);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Section Styles */
+.section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: rgb(8, 1, 1);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(10, 7, 7, 0.1);
+}
+
+.section h2 {
+    margin-bottom: 10px;
+}
+
+.section p {
+    font-size: 16px;
+}
+
+/* Footer Styles */
+footer {
+    background: #000000;
+    color: rgb(114, 131, 218);
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
